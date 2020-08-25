@@ -26,8 +26,8 @@ public class utils {
     public static final String PARAM_MEDIA_TYPE = "media_type";
     public static final String VALUE_MEDIA_TYPE = "movie";
     public static final String PARAM_MEDIA_ID = "media_id";
-    public static final int VALUE_MOVIE_ONE = 106;      //Predator
-    public static final Integer VALUE_MOVIE_TWO = 348;      //Alien
-    public static final Integer VALUE_MOVIE_THREE = 679;    //Aliens
+    public static int VALUE_MOVIE_ONE = 106;      //Predator
+    public static int VALUE_MOVIE_TWO = 348;      //Alien
+    public static int VALUE_MOVIE_THREE = 679;    //Aliens
 
 }
