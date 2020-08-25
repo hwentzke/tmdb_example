@@ -70,7 +70,7 @@ public class Test_ListManipulation {
                 .header(HEADER_AUTH, VALUE_AUTH)
                 .header(HEADER_CONTENT_TYPE, ContentType.JSON)
                 .body(addListItemBody())
-                .put(BASEURL + LIST_ENDPOINT + "/" + list_id + ITEMS_ENDPOINT);
+                .put(BASEURL + LIST_ENDPOINT + "/" + "7056135" + ITEMS_ENDPOINT);
 
         //when
         System.out.println(response.statusCode());
@@ -96,11 +96,11 @@ public class Test_ListManipulation {
         return items;
     }
 
-    private List<Object> getItem(int mediaID) {
+    private Map<String,Object> getItem(int mediaID) {
         HashMap<String,Object> item = new HashMap<>();
         item.put(PARAM_MEDIA_TYPE, VALUE_MEDIA_TYPE);
         item.put(PARAM_MEDIA_ID, mediaID);
-        return Collections.singletonList(item);
+        return item;
     }
 
 }
