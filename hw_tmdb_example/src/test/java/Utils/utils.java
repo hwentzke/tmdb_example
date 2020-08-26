@@ -2,12 +2,13 @@ package Utils;
 
 public class utils {
 
-    public static final String API_TOKEN = "5f003d24d316f94e86ae43cac0e7927f";
     public static final String ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYmYiOjE1OTgyODEwOTgsInN1YiI6IjVmNDNjYjRjNDE0MjkxMDAzODRmZGMwMCIsImp0aSI6IjIzMzAzNDEiLCJhdWQiOiI1ZjAwM2QyNGQzMTZmOTRlODZhZTQzY2FjMGU3OTI3ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCIsImFwaV93cml0ZSJdLCJ2ZXJzaW9uIjoxfQ.pFk_b-pOU4yLgeOroSbk1se0oYxVU5-5dUAgTZJbOj4";
 
-    public static final String BASEURL = "https://api.themoviedb.org/4";
-    public static final String LIST_ENDPOINT = "/list";
+    public static final String BASEURL = "https://api.themoviedb.org/4/list";
     public static final String ITEMS_ENDPOINT = "/items";
+    public static final String CLEAR_LIST_ENDPOINT = "/clear";
+    public static final String ITEM_STATUS_ENDPOINT = "/item_status";
+    public static final String ITEM_STATUS_URL_ENDING = "?media_type=movie&media_id=";
 
     public static final String HEADER_AUTH = "Authorization";
     public static final String VALUE_AUTH = "Bearer " + ACCESS_TOKEN;
